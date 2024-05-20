@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Flutter Gallery</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>flutter_gallery</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1076145714832-tdbvj30imfq7mmksk43jamvndru1dhh1</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<!-- image cropper -->
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+	<!-- location permistion -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your description here</string>
+	<key>NSLocationwhenInUseUsageDescription</key>
+	<string>Need location when in use</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Always and when in use!</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Older devices need location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Can I have location always?</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location permission description</string>
+	<!-- map api key -->
+	<key>Google Maps API Key</key>
+	<string>AIzaSyDZ8as1vJhW4Bwl5II38P5TguVh7bKZKRM</string>
+	<!-- pdf viewer -->
+	<key>io.flutter.embedded_views_preview</key>
+	<string>YES</string>
+	<!-- 3D model view -->
+	<key>io.flutter.embedded_views_preview</key>
+  	<true/>
+	<!-- microPhone  -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Recoarding Audio</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+    	<key>NSAllowsArbitraryLoads</key>
+    	<true/>
+	</dict>
+	<!-- <key>NSAppTransportSecurity</Key>
+	<dict>
+		<Key>NSAllowsArbitraryLoads</Key>
+		<true />
+	</dict>
+	<Key>NSMicrophoneUsageDescription</Key>
+	<string>Use Microphone to get better audio</String> -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
+</dict>
+</plist>
